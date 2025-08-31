@@ -25,7 +25,7 @@ It runs a **25-minute focus session** followed by a **5-minute break**, with eas
 ## ⚙️ Setup Instructions  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/username/fokusin.git
+   git clone https://github.com/dindapoetri/fokusin.git
 
 2. Navigate into the project folder:
     ```bash 
@@ -36,7 +36,7 @@ It runs a **25-minute focus session** followed by a **5-minute break**, with eas
 
 ## 🤖 AI Support for Development
 
-During development, AI (ChatGPT) was used for:
+During development, AI (IBM Granite & ChatGPT) was used for:
 - Structuring the timer logic in JavaScript
 - Suggesting minimalist UI design ideas
 - Debugging pause and reset functionality
