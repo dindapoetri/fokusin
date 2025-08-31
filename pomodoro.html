@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="hourglass.png">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="pomodoro-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ganti disini -->
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer-container">
+            <div class="timer">
+                <div class="time-display">25:00</div>
+                <div class="progress-ring">
+                    <svg width="300" height="300">
+                        <circle class="progress-ring-circle-bg" cx="150" cy="150" r="140" />
+                        <circle class="progress-ring-circle" cx="150" cy="150" r="140" />
+                    </svg>
+                </div>
+            </div>
+            <div class="status">Focus Time</div>
+            <div class="controls">
+                <button id="startBtn" class="btn">Start</button>
+                <button id="resetBtn" class="btn">Reset</button>
+            </div>
+        </div>
+        <div class="session-info">
+            <div class="info-card">
+                <h3>Focus Time</h3>
+                <p>25 minutes</p>
+            </div>
+            <div class="info-card">
+                <h3>Break Time</h3>
+                <p>5 minutes</p>
+            </div>
+        </div>
+    </div>
+    <script src="pomodoro-script.js"></script>
+</body>
+</html>
